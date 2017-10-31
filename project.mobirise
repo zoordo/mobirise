@@ -1,0 +1,99 @@
+{
+  "settings": {
+    "name": "Another",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 1,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-0",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/7.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#000",
+            "showForm": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "APPLY NOW!",
+          "form": {
+            "title": "MESSAGE",
+            "action": "soporte@servicio.it",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "First Name",
+                "visible": true,
+                "customTitle": "First Name"
+              },
+              "lastName": {
+                "title": "Last Name",
+                "visible": true,
+                "customTitle": "Last Name"
+              },
+              "email": {
+                "title": "Email Address",
+                "visible": true,
+                "customTitle": "Email Address"
+              },
+              "phone": {
+                "title": "Phone No.",
+                "visible": true,
+                "customTitle": "Phone No."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\">GET FREE TRIAL</a>",
+          "title1": "Perfect Design",
+          "text": "Lorem ipsum dolor sit amet adipisicing elit deleniti eaque eum fugit in<br>ipsum itaque minus fugit in ipsum itaque minus eaque.",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"https://mobirise.com\">PURCHASE NOW</a>"
+        }
+      ]
+    }
+  }
+}
